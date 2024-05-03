@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding-top: 60px;
+}
+
+@media (max-width: 979px) {
+    body {
+        padding-top: 0px;
+    }
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    width: 30%;
+    /* font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase; */
+}
+
+.logo img {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: -50px;
+    width: 130px;
+    height: 60px;
+}
+
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+nav a img {
+    width: 120px;
+    filter: none;
+    margin-left: 30px;
+    margin-right: -50px;
+}
+
+.home {
+    background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5);
+    background-size: cover;
+    padding: 80px;
+}
+
+.container {
+    /* border: 1px solid; */
+    color: white;
+    /* padding-left: 50px;
+    padding-top: 100px; */
+    width: 510px;
+
+
+}
+
+.nameFirst {
+    margin-bottom: -18px;
+    font-family: sans-serif;
+    font-size: 70px;
+    font-weight: 20;
+}
+
+.nameSecond {
+    letter-spacing: 5px;
+    margin-bottom: -15px;
+    font-family: fantasy;
+    font-size: 120px;
+
+}
+
+.job {
+    word-spacing: 20px;
+    letter-spacing: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 10;
+}
+
+.btn_1 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 0 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 30px;
+    padding: 2px 50px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    transition: all 1s ease 0s;
+}
+
+.sosialMedia {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+a img {
+    width: 30px;
+    filter: brightness(0) invert(1);
+    margin: 0 3px;
+}
+
+/* about */
+/* .hal2{
+    border: 1px solid;
+    background-color: black;
+    height: 100%;
+} */
+.about {
+    /* height: 100%;
+    background-color: rgb(0, 0, 0); */
+    color: white;
+    display: block;
+    padding: 50px 100px;
+    overflow: auto;
+    /* overflow: auto; tidak ngembang keluar tag(YTTA) */
+}
+
+.me {
+    margin-top: 100px;
+    width: 500px;
+    float: left;
+}
+
+.me-about {
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+
+}
+
+.me-email {
+    color: #fff;
+    text-decoration: none;
+}
+
+.me-email {
+    margin-top: -5px;
+    margin-bottom: 80px;
+}
+
+.me-foto img {
+    /* margin-top: 10px; */
+    padding-top: -100px;
+    display: flex;
+    float: right;
+    width: 600px;
+}
+
+.me-keterangan {
+    text-transform: capitalize;
+
+}
+
+
+.me-keterangan2 {
+    text-transform: capitalize;
+    /* font-size: 21px; */
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* .hal3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+} */
+
+.hal3 .port {
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+
+}
+
+.skill {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.skill1 {
+    width: 500px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.skill1 p {
+    font-size: 30px;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.skillbar {
+    background-color: rgb(192, 192, 192);
+    height: 30ppx;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.bar {
+    background-color: blue;
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.html {
+    width: 80%;
+}
+
+.php {
+    width: 60%;
+}
+
+.js {
+    width: 40%;
+}
+
+.microsoftOffice {
+    width: 80%;
+}
+
+.css {
+    width: 60%;
+}
+
+.adobePhotoshop {
+    width: 40%;
+}
+
+.hal4 {
+    background-color: rgb(28, 28, 70);
+    margin-top: 200px;
+}
+
+.hal4 .contact {
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.listContact {
+    padding-bottom: 20px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    justify-content: center;
+}
+
+.listContact a img {
+    margin: 0 50px;
+    width: 30px;
+    height: 30px;
+}
